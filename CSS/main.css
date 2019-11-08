@@ -1,0 +1,25 @@
+* {
+  color: white;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Game board dimensions */
+#myCanvas {
+  border: 6px solid white;
+  background-color: #2c2c2c;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1000px;
+  height: 650px;
+}
+/*# sourceMappingURL=main.css.map */
