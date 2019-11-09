@@ -48,4 +48,13 @@ h1 {
   left: 630px;
   top: 505px;
 }
+
+#display #blocks {
+  height: 20px;
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
 /*# sourceMappingURL=main.css.map */
