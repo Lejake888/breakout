@@ -41,4 +41,11 @@ let createBoxes = () => {
     }
 }
 
-createBoxes()
+function game() {
+    setTimeout(game,150) 
+    if (blocks) {
+        createBoxes()
+    }
+}
+
+game()
