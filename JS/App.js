@@ -11,9 +11,7 @@ let ball = {
 let blocks =
     [ 
         {left: 300, top: 100},
-        {left: 350, top: 100},
         {left: 400, top: 100},
-        {left: 450, top: 100},
         {left: 500, top: 100}
     ]
 
@@ -38,14 +36,17 @@ let createBoxes = () => {
     document.getElementById("blocks").innerHTML = "";
     for (let i = 0; i < blocks.length; i++) {
         document.getElementById("blocks").innerHTML +=`<div id='blocks' style='left:${blocks[i].left}px; top:${blocks[i].top}px;'></div>`; 
+        console.log(blocks[i].left)
     }
 }
 
-function game() {
-    setTimeout(game,150) 
-    if (blocks) {
+// function game() {
+//     setTimeout(game,150) 
+//     if (blocks) {
         createBoxes()
-    }
-}
+//     }
+// }
 
-game()
+// game()
+
+//https://code.sololearn.com/W1m4HcvBiN8b/?ref=app#js
